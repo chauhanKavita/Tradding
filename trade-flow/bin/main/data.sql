@@ -1,0 +1,4 @@
+insert into trade( trade_Id, version, counter_Party_Id, book_Id, maturity_Date, created_Date, expired) values ('T1','1','CP-1','B1','20/05/2020',TO_CHAR(CURRENT_DATE,'dd/MM/YYYY'),'N');
+insert into trade( trade_Id, version, counter_Party_Id, book_Id, maturity_Date, created_Date, expired) values ('T2','4','CP-2','B1','20/05/2021',TO_CHAR(CURRENT_DATE,'dd/MM/YYYY'),'N');
+insert into trade( trade_Id, version, counter_Party_Id, book_Id, maturity_Date, created_Date, expired) values ('T2','2','CP-1','B1','20/05/2021','14/03/2015','N');
+insert into trade( trade_Id, version, counter_Party_Id, book_Id, maturity_Date, created_Date, expired) values ('T3','3','CP-3','B2','20/05/2014',TO_CHAR(CURRENT_DATE,'dd/MM/YYYY'),'Y');
